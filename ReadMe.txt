@@ -41,3 +41,6 @@ https://linuxize.com/post/how-to-setup-ssh-tunneling/ we probably want local por
 https://serverfault.com/questions/481929/tunneling-specific-webserver-port-on-localhost-using-ssh
 
 the link above is specific for localhost apache servers
+
+The link below is a more through version of the link above
+https://superuser.com/questions/1044260/tunneling-local-webserver-through-ssh
