@@ -35,3 +35,5 @@ Of course, it is also possible to set-up a DHCP server on the Pi. In that case, 
 do this it has the question you want and how to do it https://stackoverflow.com/questions/64927570/how-can-i-view-a-localhost-apache-website-from-another-computer-on-the-same-netw
 
 look at this if you are confused it is essentially ssh tuneling https://linuxize.com/post/how-to-setup-ssh-tunneling/
+
+https://linuxize.com/post/how-to-setup-ssh-tunneling/ we probably want local port forwarding
