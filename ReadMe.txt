@@ -39,3 +39,5 @@ look at this if you are confused it is essentially ssh tuneling https://linuxize
 https://linuxize.com/post/how-to-setup-ssh-tunneling/ we probably want local port forwarding
 
 https://serverfault.com/questions/481929/tunneling-specific-webserver-port-on-localhost-using-ssh
+
+the link above is specific for localhost apache servers
