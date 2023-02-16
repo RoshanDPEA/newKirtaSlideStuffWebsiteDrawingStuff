@@ -37,3 +37,5 @@ do this it has the question you want and how to do it https://stackoverflow.com/
 look at this if you are confused it is essentially ssh tuneling https://linuxize.com/post/how-to-setup-ssh-tunneling/
 
 https://linuxize.com/post/how-to-setup-ssh-tunneling/ we probably want local port forwarding
+
+https://serverfault.com/questions/481929/tunneling-specific-webserver-port-on-localhost-using-ssh
