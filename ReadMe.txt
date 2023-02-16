@@ -30,3 +30,7 @@ Another fairly easy way would be to buy a cheap router/switch thing with a DHCP 
 
 Of course, it is also possible to set-up a DHCP server on the Pi. In that case, you can connect the device directly to Pi (no switch or cross-over cables are needed). There are plenty tutorials on how to set-up such a server (see reply by @ingo)
 
+
+---------------------------------------------------
+do this it has the question you want and how to do it https://stackoverflow.com/questions/64927570/how-can-i-view-a-localhost-apache-website-from-another-computer-on-the-same-netw
+
