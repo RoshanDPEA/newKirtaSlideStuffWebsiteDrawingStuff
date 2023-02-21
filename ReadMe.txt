@@ -7,7 +7,7 @@ the frames are update when someone draws something then presses view on screen
 the frames are named like this frame0001, frame0002, etc
 
 #TODO find the website site and HTML layout to scrape images from
-
+#DONE its on localhost which you can use ssh tunneling to accsess witht he raspberry pis
 
 http://beetlejuice.local is the website where the images are hosted
 
