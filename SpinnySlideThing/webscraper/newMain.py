@@ -10,6 +10,25 @@ import threading
 import time
 from time import sleep
 
+import enum
+from dpea_p2p import Client
+
+class PacketType(enum.Enum):
+    NULL = 0
+    COMMAND1 = 1
+    COMMAND2 = 2
+
+#         |Server IP     |Port |Packet enum
+c = Client("172.17.21.2", 5001, PacketType)
+c.connect()
+
+def packetChecking():
+    while True:
+        pack = c.recv_packet()
+        if pack[1] == "1":
+            driver.navigate().refresh()
+        
+
 #guide for chrome driver install https://techenum.com/install-raspberrypi-selenium-chromedriver/
 
 #wget https://chromedriver.storage.googleapis.com/2.37/chromedriver_linux64.zip
@@ -155,6 +174,10 @@ driver.quit()
 #second monitor
 
 #thread.start_new_thread(imageUpdate(), ())
+
+thr = threading.Thread(target=imageUpdate())
+thr.start()
+
 
 thr = threading.Thread(target=imageUpdate())
 thr.start()
