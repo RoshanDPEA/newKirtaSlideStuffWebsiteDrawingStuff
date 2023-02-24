@@ -1,6 +1,9 @@
 #follow this tutorial to setup
 https://www.youtube.com/watch?v=XVvz8t3gsys
 
+#NOTE IMPORTANT THIS IS HELPFUL
+https://stackoverflow.com/questions/40121382/control-chromium-kiosk-mode-url-from-python
+
 
 the frames are in the var/www/html directory
 the frames are update when someone draws something then presses view on screen
