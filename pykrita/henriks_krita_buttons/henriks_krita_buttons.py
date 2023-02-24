@@ -6,6 +6,20 @@ import pyautogui as p
 from time import sleep
 from threading import Thread
 import os
+
+import enum
+from dpea_p2p import Server
+
+class PacketType(enum.Enum):
+    NULL = 0
+    COMMAND1 = 1
+    COMMAND2 = 2
+
+#         |Bind IP       |Port |Packet enum
+s = Server("172.17.21.2", 5001, PacketType)
+s.open_server()
+s.wait_for_connection()
+
 firstLine = ' '
 
 export = False
@@ -44,6 +58,10 @@ class HenriksOnscreenKritaShortcutButtons(DockWidget):
         Krita.instance().action('toggle_playback').trigger()
 
     def redo(self):
+        #updating frame
+        #sends packet that tell the PIs to update screen
+        s.send_packet(PacketType.COMMAND2, b"1")
+        
         x = 0
         while x <= 7:
             if os.path.exists("/home/soft-dev/Pictures/frame000"+str(x)+".png"):
