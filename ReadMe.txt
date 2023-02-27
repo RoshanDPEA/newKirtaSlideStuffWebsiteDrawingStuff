@@ -56,3 +56,4 @@ https://superuser.com/questions/1044260/tunneling-local-webserver-through-ssh
 
 ip adress of kirta computer is 10.107.200.26
 
+https://www.quora.com/How-do-I-access-my-Apache-server-from-another-computer
