@@ -53,3 +53,6 @@ The link below is a more through version of the link above
 https://superuser.com/questions/1044260/tunneling-local-webserver-through-ssh
 
 #this is the command to run ssh -L 3000:internalip:3000 ext.home.ip.addr
+
+ip adress of kirta computer is 10.107.200.26
+
