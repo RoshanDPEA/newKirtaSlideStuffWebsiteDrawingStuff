@@ -59,3 +59,5 @@ ip adress of kirta computer is 10.107.200.26
 https://www.quora.com/How-do-I-access-my-Apache-server-from-another-computer
 
 https://unix.stackexchange.com/questions/545629/unable-to-access-apache-webserver-from-local-home-network
+
+#important https://ezunix.org/index.php?title=Set_up_Apache_server_and_SSH_client_to_allow_tunneling_SSH_over_HTTP(s)
