@@ -64,3 +64,5 @@ https://unix.stackexchange.com/questions/545629/unable-to-access-apache-webserve
 
 #tutorial
 https://serverfault.com/questions/229441/how-do-i-access-a-local-web-server-on-my-laptop-from-another-computer
+
+https://stackoverflow.com/questions/9682262/how-do-i-connect-to-this-localhost-from-another-computer-on-the-same-network
