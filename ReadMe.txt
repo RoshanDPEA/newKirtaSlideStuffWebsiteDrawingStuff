@@ -1,3 +1,12 @@
+#TDLR;
+Set up ssh tunneling
+make sure chrome driver is working
+10.107.200.26 is the host ip
+make sure it is the right version of chromium and chrome driver or it wont work
+
+
+
+
 #follow this tutorial to setup
 https://www.youtube.com/watch?v=XVvz8t3gsys
 
